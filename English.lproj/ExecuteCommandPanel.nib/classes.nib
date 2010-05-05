@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {orderFrontExecuteCommandPanel = id; performExecuteCommand = id; }; 
+            CLASS = OakExecuteCommandManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {executeCommandPanel = NSPanel; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,224 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                goToLineAction = id; 
+                orderFrontCommandsEditor = id; 
+                orderFrontPreferences = id; 
+                orderFrontRegistrationPanel = id; 
+                orderFrontReleaseNotes = id; 
+                showExtendedTerminalUsageHelp = id; 
+            }; 
+            CLASS = AppDelegate; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                fillWithStringPanel = NSPanel; 
+                goToLinePanel = NSPanel; 
+                goToLineTextField = NSTextField; 
+                openPanelAccessoryView = NSView; 
+                savePanelAccessoryView = OakEncodingView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = Bundle; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = BundleItem; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = BundleManager; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = CacheManager; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                abortMacroRecording = id; 
+                capitalizeWord = id; 
+                centerCaretInDisplay = id; 
+                changeCaseOfLetter = id; 
+                changeCaseOfWord = id; 
+                changeSpacesToTabs = id; 
+                changeTabsToSpaces = id; 
+                copySelectionToFindPboard = id; 
+                copySelectionToReplacePboard = id; 
+                enterLineAppendMode = id; 
+                executeCommand = id; 
+                executeSelectionAppendingOutput = id; 
+                executeSelectionInsertingOutput = id; 
+                executeSelectionReplacingSelection = id; 
+                fillSelectionWith = id; 
+                findNext = id; 
+                findPrevious = id; 
+                foldAllAtLevel = id; 
+                foldSelection = id; 
+                goToFile = id; 
+                goToFileCounterpart = id; 
+                goToNextBookmark = id; 
+                goToNextFile = id; 
+                goToPreviousBookmark = id; 
+                goToPreviousFile = id; 
+                goToSupportPage = id; 
+                goToSymbol = id; 
+                indent = id; 
+                insertClosingTag = id; 
+                lowercaseWord = id; 
+                makeTextLarger = id; 
+                makeTextSmaller = id; 
+                moveSelectionColumnLeft = id; 
+                moveSelectionColumnRight = id; 
+                moveSelectionLineDown = id; 
+                moveSelectionLineUp = id; 
+                myAction = id; 
+                newProject = id; 
+                nextCompletion = id; 
+                orderFrontFindInProjectPanel = id; 
+                orderFrontFindPanel = id; 
+                orderFrontGoToLinePanel = id; 
+                orderFrontWebPreview = id; 
+                pasteFromHistory = id; 
+                pasteNext = id; 
+                pastePrevious = id; 
+                pasteWithoutReindent = id; 
+                performCloseAllTabs = id; 
+                performCloseOtherTabs = id; 
+                performCloseTab = id; 
+                performFillSelectionWithAction = id; 
+                previousCompletion = id; 
+                projectAddFiles = id; 
+                projectGroupFiles = id; 
+                projectNewFile = id; 
+                projectNewGroup = id; 
+                projectRemoveFiles = id; 
+                projectUngroupFiles = id; 
+                reformatText = id; 
+                reformatTextAndJustify = id; 
+                reopenWithEncoding = id; 
+                replaceAll = id; 
+                replaceAllInSelection = id; 
+                replaceAndFind = id; 
+                revealFileInFinder = id; 
+                revealInProject = id; 
+                saveProject = id; 
+                saveProjectAs = id; 
+                scrollColumnLeft = id; 
+                scrollColumnRight = id; 
+                scrollLineDown = id; 
+                scrollLineUp = id; 
+                selectBlock = id; 
+                selectCurrentScope = id; 
+                selectHardLine = id; 
+                selectLine = id; 
+                selectParagraph = id; 
+                selectWord = id; 
+                sendFeedback = id; 
+                shiftLeft = id; 
+                shiftRight = id; 
+                takeRightMarginFrom = id; 
+                takeTabSizeFrom = id; 
+                toggleAntiAliasEnabled = id; 
+                toggleAutoIndent = id; 
+                toggleColumnSelection = id; 
+                toggleCurrentBookmark = id; 
+                toggleExpandSnippetsOnTab = id; 
+                toggleFolding = id; 
+                toggleFoldingsEnabled = id; 
+                toggleFreehandedEdit = id; 
+                toggleGroupsAndFilesDrawer = id; 
+                toggleHardWrap = id; 
+                toggleIndentedPaste = id; 
+                toggleLineNumbers = id; 
+                toggleMacroRecording = id; 
+                toggleOpenFilesFolded = id; 
+                toggleOverwriteMode = id; 
+                toggleRightMarginIndicator = id; 
+                toggleShowBookmarksInGutter = id; 
+                toggleShowInvisibles = id; 
+                toggleShowSoftWrapInGutter = id; 
+                toggleShowStatusBarView = id; 
+                toggleShowTabBarView = id; 
+                toggleSmartTyping = id; 
+                toggleSoftWrap = id; 
+                toggleTreatsSpacesAsTabs = id; 
+                transpose = id; 
+                transposeWords = id; 
+                trimEmptyLines = id; 
+                trimLeadingSpaces = id; 
+                trimMultipleSpaces = id; 
+                trimTrailingSpaces = id; 
+                unfoldAllAtLevel = id; 
+                unwrapText = id; 
+                uppercaseWord = id; 
+                viewSource = id; 
+            }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {CLASS = OakApplication; LANGUAGE = ObjC; SUPERCLASS = NSApplication; }, 
+        {CLASS = OakBundleEditorWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {CLASS = OakBundleMenuDelegate; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                editCommands = id; 
+                editLanguages = id; 
+                editMacros = id; 
+                editSnippets = id; 
+                editTemplates = id; 
+                orderFrontBundleEditor = id; 
+                reloadBundles = id; 
+                selectBundleItemFromList = id; 
+            }; 
+            CLASS = OakBundleMenuManager; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = OakBundleOutlineView; LANGUAGE = ObjC; SUPERCLASS = NSOutlineView; }, 
+        {CLASS = OakBundleSplitView; LANGUAGE = ObjC; SUPERCLASS = NSSplitView; }, 
+        {
+            CLASS = OakCommandResultManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {delegate = id; resultTextView = OakTextView; resultWindow = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = OakEncodingView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {encodingPopupButton = NSPopUpButton; lineEndingPopupButton = NSPopUpButton; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            ACTIONS = {
+                clearMenu = id; 
+                orderFrontExecuteCommandPanel = id; 
+                performExecuteCommand = id; 
+            }; 
+            CLASS = OakExecuteCommandManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {executeCommandMenu = NSMenu; executeCommandPanel = NSPanel; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {playMacroWithTag = id; saveScratchMacro = id; }; 
+            CLASS = OakMacroManager; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {editThemes = id; }; 
+            CLASS = OakThemeManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {themeEditorWindow = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {orderFrontTipOfTheDay = id; showNextTip = id; showPreviousTip = id; }; 
+            CLASS = OakTipOfTheDay; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {window = NSWindow; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {orderFrontWebPreview = id; }; 
+            CLASS = OakWebPreviewManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {webPreviewWindow = NSWindow; webView = WebView; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

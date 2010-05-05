@@ -1,0 +1,95 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {"" = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = NSDictionary; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {
+            ACTIONS = {duplicate = id; }; 
+            CLASS = OakArrayController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSArrayController; 
+        }, 
+        {
+            ACTIONS = {
+                duplicateItem = id; 
+                editBundleList = id; 
+                newBundle = id; 
+                newCommand = id; 
+                newDragCommand = id; 
+                newLanguage = id; 
+                newPreference = id; 
+                newSnippet = id; 
+                newTemplate = id; 
+                newTemplateFile = id; 
+                orderFrontBundleEditor = id; 
+                orderOutBundleList = id; 
+                removeItem = id; 
+                showHelpForCommands = id; 
+                showHelpForDragCommands = id; 
+                showHelpForLanguageGrammars = id; 
+                showHelpForMoreBundles = id; 
+                showHelpForPreferences = id; 
+                showHelpForSnippets = id; 
+                showHelpForTemplates = id; 
+                testLanguage = id; 
+                testTemplate = id; 
+            }; 
+            CLASS = OakBundleEditor; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                boxTitle = NSTextField; 
+                bundleEditorPanel = NSPanel; 
+                bundleFilterMenu = NSMenu; 
+                bundleListEditorSheet = NSPanel; 
+                bundleListEditorTableView = NSTableView; 
+                bundlePropertiesEditor = NSView; 
+                commandEditor = NSView; 
+                dragCommandEditor = NSView; 
+                editorBox = NSBox; 
+                excludedMenuItemsTableView = NSView; 
+                imageView = NSImageView; 
+                keyEquivalentField = OakKeyEquivalent; 
+                languageEditor = NSView; 
+                languageTextView = NSTextView; 
+                macroEditor = NSView; 
+                mainSplitView = NSSplitView; 
+                menuStructureOutlineview = NSView; 
+                noSelection = NSView; 
+                outlineView = OakBundleOutlineView; 
+                preferenceEditor = NSView; 
+                preferenceTextView = NSTextView; 
+                selection = id; 
+                snippetEditor = NSView; 
+                splitView = OakBundleSplitView; 
+                templateEditor = NSView; 
+                templateFileEditor = NSView; 
+                templateFileTextView = NSTextView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = OakBundleEditorWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {CLASS = OakBundleOutlineView; LANGUAGE = ObjC; SUPERCLASS = NSOutlineView; }, 
+        {CLASS = OakBundleSplitView; LANGUAGE = ObjC; SUPERCLASS = NSSplitView; }, 
+        {CLASS = OakButton; LANGUAGE = ObjC; SUPERCLASS = NSButton; }, 
+        {CLASS = OakKeyEquivalent; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = OakKeyEquivalentCell; LANGUAGE = ObjC; SUPERCLASS = NSTextFieldCell; }, 
+        {
+            CLASS = OakKeyEquivalentFieldEditor; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTextView; 
+        }, 
+        {
+            ACTIONS = {projectRenameFile = id; }; 
+            CLASS = OakMenuButton; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {actionMenu = NSMenu; delegate = id; outlineView = NSOutlineView; }; 
+            SUPERCLASS = NSButton; 
+        }
+    ); 
+    IBVersion = 1; 
+}

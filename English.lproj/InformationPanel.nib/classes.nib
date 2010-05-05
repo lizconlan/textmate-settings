@@ -1,0 +1,22 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = OakButton; LANGUAGE = ObjC; SUPERCLASS = NSButton; }, 
+        {
+            ACTIONS = {orderFrontChoosePathSheet = id; }; 
+            CLASS = OakInformationPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                delegate = id; 
+                fileInfoPanel = NSWindow; 
+                folderInfoPanel = NSWindow; 
+                groupInfoPanel = NSWindow; 
+                item = id; 
+                objectController = NSObjectController; 
+                projectInfoPanel = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

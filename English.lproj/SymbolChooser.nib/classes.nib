@@ -1,0 +1,28 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {accept = id; orderFront = id; search = id; }; 
+            CLASS = OakFileChooser; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {drawer = NSDrawer; searchField = NSSearchField; statusBar = id; }; 
+            SUPERCLASS = OakTableViewController; 
+        }, 
+        {CLASS = OakFileChooserStatusBar; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = OakFileChooserWindow; LANGUAGE = ObjC; SUPERCLASS = NSPanel; }, 
+        {
+            ACTIONS = {accept = id; search = id; }; 
+            CLASS = OakSymbolChooser; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {arrayController = NSArrayController; filterStringTextField = NSSearchField; }; 
+            SUPERCLASS = OakTableViewController; 
+        }, 
+        {
+            CLASS = OakTableViewController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {tableView = NSTableView; }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

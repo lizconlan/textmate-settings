@@ -1,0 +1,20 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = OakRetainDebugObject; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                goBack = id; 
+                goForward = id; 
+                orderFrontWebPreview = id; 
+                performRefresh = id; 
+                reload = id; 
+            }; 
+            CLASS = OakWebPreviewManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {delegate = id; webPreviewWindow = NSWindow; webView = WebView; }; 
+            SUPERCLASS = NSResponder; 
+        }
+    ); 
+    IBVersion = 1; 
+}

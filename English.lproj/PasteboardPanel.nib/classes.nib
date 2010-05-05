@@ -1,0 +1,23 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {pasteNext = id; pastePrevious = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = OakBorderlessPanel; LANGUAGE = ObjC; SUPERCLASS = NSPanel; }, 
+        {
+            ACTIONS = {
+                applicationWillBecomeActiveNotification = id; 
+                orderFrontPasteboardPanel = id; 
+                remove = id; 
+            }; 
+            CLASS = OakPasteboardManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {sharedPanel = NSPanel; tableView = NSTableView; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,41 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = OakCompletionTextField; LANGUAGE = ObjC; SUPERCLASS = NSComboBox; }, 
+        {
+            CLASS = OakFindInProjectOutlineView; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSOutlineView; 
+        }, 
+        {
+            ACTIONS = {
+                applicationDidBecomeActiveNotification = id; 
+                applicationWillResignActiveNotification = id; 
+                orderFrontFindInProjectPanel = id; 
+                orderFrontFindPanel = id; 
+                performFindAction = id; 
+                performFindInProjectAction = id; 
+                toggleWindowSize = id; 
+            }; 
+            CLASS = OakFindManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                findComboBox = NSComboBox; 
+                findInProjectOutlineView = NSOutlineView; 
+                findInProjectPanel = NSPanel; 
+                findInProjectReplaceAllButton = NSButton; 
+                findPanel = NSPanel; 
+                findStatusText = NSTextField; 
+                replaceAllButton = NSButton; 
+                replaceComboBox = NSComboBox; 
+                replaceLabel = NSTextField; 
+                toggleWindowSizeButton = NSButton; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = OakFindPanel; LANGUAGE = ObjC; SUPERCLASS = NSPanel; }, 
+        {CLASS = OakFindPanelStatusBar; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {CLASS = OakNonKeyButton; LANGUAGE = ObjC; SUPERCLASS = NSButton; }
+    ); 
+    IBVersion = 1; 
+}

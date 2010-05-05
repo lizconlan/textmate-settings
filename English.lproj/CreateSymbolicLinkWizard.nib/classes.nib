@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {accept = id; cancel = id; destinationChanged = id; showHelp = id; }; 
+            CLASS = OakCreateSymbolicLinkWizard; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {createSymbolicLinkWindow = NSWindow; destinationPopUp = NSPopUpButton; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

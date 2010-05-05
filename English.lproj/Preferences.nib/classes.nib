@@ -1,0 +1,63 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = OakButton; LANGUAGE = ObjC; SUPERCLASS = NSButton; }, 
+        {CLASS = OakColorWell; LANGUAGE = ObjC; SUPERCLASS = NSColorWell; }, 
+        {CLASS = OakDateFormatter; LANGUAGE = ObjC; SUPERCLASS = NSDateFormatter; }, 
+        {
+            ACTIONS = {
+                acceptThemeListChanges = id; 
+                addSetting = id; 
+                addTheme = id; 
+                cancelThemeListChanges = id; 
+                changeTheme = id; 
+                duplicateTheme = id; 
+                removeSetting = id; 
+                removeTheme = id; 
+            }; 
+            CLASS = OakFontsAndColorsController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                preferencesWindow = NSWindow; 
+                selectedTheme = id; 
+                selection = id; 
+                settingsTableView = NSTableView; 
+                themeCommentTextField = NSTextField; 
+                themeListSheet = NSPanel; 
+                themeObjectController = NSController; 
+                themePopUpButton = NSPopUpButton; 
+                themesTableView = NSTableView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                performManualVersionCheck = id; 
+                scheduledVersionCheck = id; 
+                toggleAutomaticVersionCheck = id; 
+            }; 
+            CLASS = OakMacPADManager; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {orderFrontPreferences = id; selectToolbarItem = id; }; 
+            CLASS = OakPreferencesManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                advancedPrefs = NSView; 
+                arrayController = NSArrayController; 
+                fontsAndColorsPrefs = NSView; 
+                fontsAndcolorsController = OakFontsAndColorsController; 
+                generalPrefs = NSView; 
+                printingPrefs = NSView; 
+                softwareUpdatePrefs = NSView; 
+                textEditingPrefs = NSView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = OakSettingsNameCell; LANGUAGE = ObjC; SUPERCLASS = NSTextFieldCell; }, 
+        {CLASS = OakSettingsTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }
+    ); 
+    IBVersion = 1; 
+}

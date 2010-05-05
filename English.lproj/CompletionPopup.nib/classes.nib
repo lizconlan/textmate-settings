@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = OakBorderlessPanel; LANGUAGE = ObjC; SUPERCLASS = NSPanel; }, 
+        {
+            CLASS = OakCompletionManager; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {tableView = NSTableView; window = NSPanel; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

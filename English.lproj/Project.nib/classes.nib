@@ -1,0 +1,91 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                myAction = id; 
+                newProject = id; 
+                projectAddFiles = id; 
+                projectGroupFiles = id; 
+                projectNewFile = id; 
+                projectNewGroup = id; 
+                projectRemoveFiles = id; 
+                projectShowInformationPanel = id; 
+                revealFileInFinder = id; 
+                saveProject = id; 
+                saveProjectAs = id; 
+                toggleGroupsAndFilesDrawer = id; 
+            }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {CLASS = OakButton; LANGUAGE = ObjC; SUPERCLASS = NSButton; }, 
+        {
+            ACTIONS = {selectBaseName = id; }; 
+            CLASS = OakFilenameTextField; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTextField; 
+        }, 
+        {
+            ACTIONS = {projectRenameFile = id; }; 
+            CLASS = OakMenuButton; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {actionMenu = NSMenu; delegate = id; outlineView = NSOutlineView; }; 
+            SUPERCLASS = NSButton; 
+        }, 
+        {CLASS = OakOutlineView; LANGUAGE = ObjC; SUPERCLASS = NSOutlineView; }, 
+        {
+            ACTIONS = {
+                goToFileCounterpart = id; 
+                goToNextFile = id; 
+                goToPreviousFile = id; 
+                openFileInNewWindow = id; 
+                openFileWithFinder = id; 
+                performNewFileSheetAction = id; 
+                projectAddFiles = id; 
+                projectGroupFiles = id; 
+                projectNewFile = id; 
+                projectNewGroup = id; 
+                projectRemoveFiles = id; 
+                projectShowInformationPanel = id; 
+                revealFileInFinder = id; 
+                saveDocument = id; 
+                saveDocumentAs = id; 
+                saveProject = id; 
+                saveProjectAs = id; 
+                singleClickItem = id; 
+                toggleTreatFileAsText = id; 
+            }; 
+            CLASS = OakProjectController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                groupsAndFilesDrawer = NSDrawer; 
+                newFileSheet = NSWindow; 
+                newFileTemplatePopupButton = NSPopUpButton; 
+                outlineView = NSOutlineView; 
+                statusBar = id; 
+                tabBarView = OakTabBarView; 
+                textView = OakTextView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = OakStatusBar; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {
+            CLASS = OakTab; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {identifier = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {selectNextTab = id; selectPreviousTab = id; }; 
+            CLASS = OakTabBarView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {delegate = id; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = OakTextView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = OakWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }
+    ); 
+    IBVersion = 1; 
+}
